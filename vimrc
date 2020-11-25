@@ -41,11 +41,11 @@ endfunction
  
 function AddTitle()
         call append(1,"############################################################")
-        call append(2,"# Author        : Reid")
-        call append(3,"# Email         : 122@163.com")
+        call append(2,"# Author        : Dongfangbao")
+        call append(3,"# Email         : null@null.com")
         call append(4,"# Last modified : ".strftime("%Y-%m-%d %H:%M"))
         call append(5,"# Filename      : ".expand("%:t"))
-        call append(6,"# Description   : ")
+        call append(6,"# Description   : This doc is dongfangbao for:  ")
         call append(7,"###########################################################")
         echohl WarningMsg | echo "Successful in adding the copyright." | echohl None
 endfunction
